@@ -51,6 +51,6 @@ function timeUp() {
     $("#questionOne").remove();
     // $("#results").show();
     document.getElementById("results").style.visibility = "visible";
-
+    $("#results").text("Time's up! The correct answer was ")
 }
 

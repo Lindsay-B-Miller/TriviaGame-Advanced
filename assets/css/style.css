@@ -51,7 +51,7 @@ h1 {
 
 }
 
-#question {
+.question {
     color: white;
     font-size: 18px;
     line-height: 1;
@@ -60,6 +60,7 @@ h1 {
 
 #question:hover {
     border: 3px solid purple;
+
 }
 
 #submit {
