@@ -1,0 +1,93 @@
+body {
+    background-image: url("../images/longs.jpg");
+    background-size: cover;
+    /* background-repeat:no-repeat; */
+}
+
+form {
+    display: none;
+}
+
+
+#start {
+    box-sizing: border-box;
+    width: 300px;
+    background-color: lightblue;
+    border: 2px solid purple;
+    padding: 50px 100px 50px 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#start:hover {
+    border: 10px solid purple;
+}
+
+#timeRemaining {
+    font-size: 20px;
+    color: white;
+    font-family: 'Vollkorn SC', serif;
+    color: yellow;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container {
+    box-sizing: border-box;
+    background-color: teal;
+    width: 65%;
+    margin: 100px auto;
+    text-align: center;
+    border: 5px solid blue;
+    height: 450px;
+    overflow: auto;
+
+}
+
+#question {
+    color: white;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#question:hover {
+    border: 3px solid purple;
+}
+
+#submit {
+    padding: 10px;
+    font-size: 12px;
+    margin: 30px;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#input {
+    font-size: 14px;
+}
+
+#results {
+    box-sizing: border-box;
+    width: 500px;
+    background-color: teal;
+    border: 5px solid blue;
+    padding: 0px 100px 25px 100px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+    color: white;
+    visibility: hidden;
+}
