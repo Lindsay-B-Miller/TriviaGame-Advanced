@@ -36,8 +36,13 @@ var temp;
 // When user clicks the start button, start disappears and is replaced by the first question.
 $("#start").click(function start() {
     $("#start").remove();
-    var q = $("<h2>").text(questions[0].question);
-    $("#question").html(q);
+    $("#question").html(function (n) {
+        return ("<h2>" + questions[n].question + "</h2>" + questions[n].option1 + "<br>" + questions[n].option2 + "<br>" + questions[n].option3 + "<br>" + questions[n].option4);
+    });
+
+    // questions[0].option1, questions[0].option2)
+    // $("#question").html(q, p);
+
 
     // $("#question").show();
     // questions[0].option1, questions[0].option2);
